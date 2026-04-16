@@ -1,0 +1,18 @@
+<service>
+  <id>aksioma-payments-bot</id>
+  <name>Aksioma Payments Bot</name>
+  <description>Telegram bot for tracking payments via Baserow</description>
+  <startmode>Automatic</startmode>
+
+  <executable>C:\Projects\aksioma-payments-bot\.venv\Scripts\python.exe</executable>
+  <arguments>"-m" "bot.main"</arguments>
+  <workingdirectory>C:\Projects\aksioma-payments-bot</workingdirectory>
+
+  <logpath>C:\Projects\aksioma-payments-bot\logs</logpath>
+  <log mode="roll-by-size">
+    <sizeThreshold>5120</sizeThreshold>
+    <keepFiles>2</keepFiles>
+  </log>
+
+  <onfailure action="restart" delay="1 min" />
+</service>
