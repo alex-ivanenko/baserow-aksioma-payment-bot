@@ -63,7 +63,7 @@ uv sync
 Создайте файл `.env` в корне проекта на основе `.env.example` и заполните его своими данными:
 
 - `TELEGRAM_BOT_TOKEN`: Токен вашего бота, полученный от [@BotFather](https://t.me/BotFather) в Telegram.
-- `BASEROW_URL`: URL вашего инстанса Baserow (например, `http://192.168.1.100`).
+- `BASEROW_URL`: URL вашего инстанса Baserow (например, `https://baserow.local`).
 - `BASEROW_TOKEN`: Database Token от Baserow.
 - `BASEROW_TABLE_ID`: ID таблицы оплат (число из URL таблицы).
 - `BASEROW_ORDERS_TABLE_ID`: ID таблицы заказов.
