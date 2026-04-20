@@ -1,8 +1,7 @@
 # 🤖 Аксиома Оплаты Бот
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted-blue)
-![Qwen](https://img.shields.io/badge/Qwen-008BB9)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c)
+![GLM](https://img.shields.io/badge/GLM-4A90E2)
 
 Telegram-бот для учёта оплат с сохранением в Baserow.
 Позволяет авторизованным пользователям добавлять записи: номер заказа, вложение(pdf, картинка,..), сумма, примечание.
